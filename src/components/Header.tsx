@@ -1,3 +1,4 @@
+import { Main } from "./Main";
 import { SectionOneHeader } from "./SectionOneHeader";
 import { SectionTwoHeader } from "./SectionTwoHeader";
 
