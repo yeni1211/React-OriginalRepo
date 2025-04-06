@@ -1,4 +1,4 @@
-import React, { } from 'react';
+import React from "react";
 import { Label } from "./Label";
 
 export function Menu() {
@@ -21,11 +21,11 @@ const styles: React.CSSProperties = {
   alignItems: "center",
   padding: "10px 20px",
   backgroundColor: "white",
-//   borderBottom: "1px solid #ddd",
-  fontFamily: 'Arial, sans-serif',
-  fontSize: '14px',
-  color: '#333',
-  gap: '20px',
+  //   borderBottom: "1px solid #ddd",
+  fontFamily: "Arial, sans-serif",
+  fontSize: "14px",
+  color: "#333",
+  gap: "20px",
 };
 
 const labelHoverStyles: React.CSSProperties = {
