@@ -13,7 +13,8 @@ export function ButtonComponent({
     <button
       onClick={onClick}
       style={style}
-      className="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700"
+      className="w-32 bg-gray-100 hover:bg-gray-200 text-gray-800 font-semibold py-2 px-4 rounded"
+      
     >
       {name}
     </button>
