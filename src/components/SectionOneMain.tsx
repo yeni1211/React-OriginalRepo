@@ -4,6 +4,10 @@ import { Logo } from "./Logo";
 import { Tittle } from "./Tittle";
 
 export function SectionOneMain() {
+
+  const handleSingUp = () =>{
+    window.location.href = "https://trailhead.salesforce.com/trailblazer";
+  }
   return (
     <div style={ContainerMain}>
       <div style={logoStyles}>
@@ -17,7 +21,7 @@ export function SectionOneMain() {
       </div>
       <div style={buttons}>
         <Button name="Sign Up" style={signUpButtonStyle} />
-        <Button name="Login" style={loginButtonStyle} />
+        <Button name="Login" style={loginButtonStyle} onClick={handleSingUp}/>
       </div>
     </div>
   );

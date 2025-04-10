@@ -2,10 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 // import App from './App.tsx'
-import { AppCounter } from './AppCounter.tsx'
+import { CounterApp } from './CounterApp.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <AppCounter   />
-  </StrictMode>,
+    <CounterApp   />
+  </StrictMode>
 )
