@@ -1,19 +1,21 @@
-import { Button } from "./Button";
+import { ButtonComponent } from "./ButtonComponent";
 
 export type ControlPanelComponentProps = {
   incrementarContador: () => void;
+  decrementarContador: () => void;
+  resetearContador: () => void;
 };
 
 export function ControlPanelComponent({
-  incrementarContador,
+  incrementarContador, decrementarContador, resetearContador
 }: ControlPanelComponentProps) {
   return (
-    <div className="flex gap-4">
-      <div className="flex gap-4">
-        <Button name="Incrementar" onClick={incrementarContador}></Button>
+    <div className="flex flex-row gap-1 items-center justify-center"> 
+      <div>
+        <ButtonComponent name="Increment" onClick={incrementarContador}></ButtonComponent>
       </div>
-      <div><Button name="Incrementar" ></Button></div>
-      <div><Button name="Incrementar" ></Button></div>
+      <div><ButtonComponent name="Decrement" onClick={decrementarContador}></ButtonComponent></div>
+      <div><ButtonComponent name="Reset" onClick={resetearContador}></ButtonComponent></div>
     </div>
   );
 }

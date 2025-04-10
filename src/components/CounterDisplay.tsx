@@ -12,7 +12,7 @@ export function CounterDisplay({ count }: CounterDisplayProps) {
 //   const { te, amo } = objetivoAmor;
 
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <div>slider</div>
       <h1>
         {count}
