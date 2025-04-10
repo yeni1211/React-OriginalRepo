@@ -10,7 +10,7 @@ export function ControlPanelComponent({
   incrementarContador, decrementarContador, resetearContador
 }: ControlPanelComponentProps) {
   return (
-    <div className="flex flex-row gap-1 items-center justify-center"> 
+    <div className="flex flex-row bg-gray-300 gap-1 items-center justify-center w-96 mx-auto"> 
       <div>
         <ButtonComponent name="Increment" onClick={incrementarContador}></ButtonComponent>
       </div>

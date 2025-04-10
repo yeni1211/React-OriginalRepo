@@ -13,7 +13,7 @@ export function CounterDisplay({ count }: CounterDisplayProps) {
 
   return (
     <div className="flex flex-col items-center">
-      <div>slider</div>
+      <div className="text-2xl">slider</div>
       <h1>
         {count}
       </h1>
